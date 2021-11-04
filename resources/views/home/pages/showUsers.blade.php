@@ -3,7 +3,7 @@
     @include('home/global/header')
 @endsection
 @section('main')
-    @include('home/views/url')
+    @include('home/views/showUsers')
 @endsection
 @section('footer')
     @include('home/global/footer')

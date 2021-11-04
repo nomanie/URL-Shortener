@@ -35,7 +35,7 @@ section{
 td{
     padding-left:5px;
 }
-.url{
+.url-form{
     width:30%;
     margin:auto;
     background: rgb(50,50,50);
@@ -72,4 +72,72 @@ td{
 }
 .new-btn{
     width:10%;
+}
+.urls-div{
+    text-align: center;
+    width:100%;
+    margin-top:50px;
+}
+.urls-div button{
+    width:30%;
+    height:15vh;
+    font-size:30px;
+    color:black;
+    box-shadow: 1px 1px 2px 2px black;
+}
+header a:link,header a:visited{
+    text-decoration: underline;
+    color:inherit;
+}
+header .auth a:link,header .auth a:visited{
+    text-decoration: none;
+}
+.login-card{
+    background: mediumseagreen;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 2px black;
+}
+.login-card input{
+    background: #2d3748;
+}
+.dropdown-toggle{
+    color:mediumseagreen;
+}
+.dropdown-menu{
+    background: mediumseagreen;
+    color:black;
+}
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    margin:auto;
+    text-align: center;
+}
+.create-new-user, .edit-user{
+    width:40%;
+    height:50%;
+    border:solid 1px black;
+    box-shadow:1px 1px 2px 2px black;
+    display:none;
+    position:absolute;
+    left:30%;
+    top:15%;
+}
+.hide-new-user-div, .hide-edit-user-div{
+    text-align: center;
+    border:solid 1px black;
+    width:25px;
+    height: 25px;
+    color:red;
+    position:relative;
+    top:1%;
+    left:95%;
+}
+.inputs-add{
+    width:40%;
+    margin:auto;
+}
+.forms{
+    text-align: center;
 }
